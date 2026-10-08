@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicas de Programação</title>
+    <meta name="description" content="Dicas práticas para escrever código melhor e evoluir como programador." />
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+
+    <header class="topbar">
+        <a href="#inicio" class="logo">&lt;<span>dev</span>dicas/&gt;</a>
+        <nav>
+            <a href="#dicas">Dicas</a>
+            <a href="#aleatoria">Dica aleatória</a>
+            <button id="tema" class="icon-btn" aria-label="Alternar tema">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <p class="tag">Guia rápido para iniciantes</p>
+            <h1>Escreva código <span class="grad">melhor</span>,<br />um passo de cada vez.</h1>
+            <p class="sub">
+                Dicas simples e práticas de programação para você aplicar hoje mesmo
+                nos seus projetos.
+            </p>
+            <a href="#dicas" class="btn">Ver dicas ↓</a>
+        </section>
+
+        <section id="dicas" class="section">
+            <h2>Dicas essenciais</h2>
+            <div class="filtros" id="filtros"></div>
+            <div class="grid" id="grid"></div>
+        </section>
+
+        <section id="aleatoria" class="section random">
+            <h2>Sem saber por onde começar?</h2>
+            <p>Clique no botão e receba uma dica surpresa.</p>
+            <button id="btn-random" class="btn">🎲 Sortear dica</button>
+            <blockquote id="random-box" class="random-box">Sua dica aparecerá aqui.</blockquote>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Feito em sala de aula com HTML, CSS e JavaScript 💙</p>
+    </footer>
+
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>
